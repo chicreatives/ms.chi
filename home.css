@@ -1,0 +1,250 @@
+html {
+    height: 100%;
+ 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bg-six.png');
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home-container {
+    border-radius: 10px;
+    width: 50%;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: -2px 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.home-bg {
+    border-style: solid;
+    border-color: #f9cff7;
+    border-width: 2px;
+    height: 83%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: none;
+}
+.first {
+    gap: 0px;
+}
+.first {
+    width: 33%;
+    display: flex;   
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 16px;
+    justify-content: center;
+    gap: 20px;
+    color: #000035;  
+}
+.greet {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 10px;
+    border-bottom-width: 2px;
+    border-color: #f9cff7;
+    width: 80%;
+}
+.first button {
+    width: 100%;
+    font-family: montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #000035;
+    color: #f9cff7;
+    word-spacing: 5px;
+    
+}
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    gap: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 20px;
+    border-color: #f9cff7;
+}
+.buttons a  {
+    width: 100%;
+}
+.social  {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-top: 20px;
+    border-bottom-width: 0px;
+    border-color: #f9cff7;
+    
+}
+.social i {
+    color: #000035;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+.second {
+    width: 33%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #f9cff7;
+    border-width: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.profile-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.second h2 {
+    line-height: 16px;
+    font-family: montserrat;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    color: #000035;
+}
+.profile {
+    width: 80%;
+    border-radius: 50%;
+}
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    gap: 20px;
+}
+.third p {
+    font-family: montserrat;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000035;
+}
+.note {
+    width: 80%;
+    border-style: solid;
+    border-color: #f9cff7;
+    border-width: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px 0 10px 0px;
+
+}
+.note h1 {
+    font-family: montserrat;
+    font-size: 16px;
+    color: #000035;
+    
+}
+.third button {
+    width: 100%;
+    font-family: montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #000035;
+    color: #f9cff7;
+    word-spacing: 5px;
+}
+button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 844px) {
+        
+    .body  {
+        background-position: center;
+
+    }
+    .home-container {
+        width: 90%;
+        height: 40%;
+    }
+    .first  {
+        font-size: 5px;
+        line-height: 13px;
+    }
+    .first button {
+        font-size: 7px;
+        word-spacing: 2px;
+    }
+    .social i {
+        font-size: 15px;
+        color: #000035;
+    }
+    .second h2 {
+        font-family: montserrat;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .third {
+        gap: 2px;
+    }
+    .third h2 {
+        font-size: 3px;
+        
+    
+    }
+    
+    .note p {
+        font-family: montserrat;
+        font-size: 9px;
+        line-height: 13px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    body {
+        background-position: -6rem;
+    }
+
+}
